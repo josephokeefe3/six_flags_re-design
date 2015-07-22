@@ -59,6 +59,11 @@ ul,div,p,h1,h2,h3,h4,h5,span,a,aside,section,li,ol,nav {
 	border: 2px solid #5CD65C;
 }
 
+#logo {
+	display: absolute;
+	width: 14%;
+	margin: 0 auto;
+}
 /*
 * ==============================
 * Media Queries ================
