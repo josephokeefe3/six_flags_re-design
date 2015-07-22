@@ -1,0 +1,72 @@
+/*
+* ==============================
+* Six Flags Rewrite © 2015 - ===
+* ==============================
+*/
+
+ul,div,p,h1,h2,h3,h4,h5,span,a,aside,section,li,ol,nav {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.nav-back {
+	background-color: #E8E8E8;
+	height: 100px;
+}
+
+.navbar {
+	margin: 40px 100px 0 100px;
+	display: inline;
+}
+
+.navbar li {
+	margin: 10px;
+	display: inline;
+}
+
+.nav-right {
+	float: right;
+}
+
+.nav-left {
+	float: left;
+}
+
+#brand img {
+	transition: all 0.2s ease-in;
+}
+
+#brand img:hover {
+	transition: all 0.2s ease-in;
+	opacity: 0.8;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.btn-ov {
+	margin-top: 60px;
+	transition: all 0.2s ease-in;
+	font-size: 24px;
+	border: 2px solid #5CD65C;
+}
+
+.btn-ov:hover {
+	transition: all 0.2s ease-in;
+	background-color: #5CD65C;
+	border: 2px solid #5CD65C;
+}
+
+/*
+* ==============================
+* Media Queries ================
+* ==============================
+*/
+
+@media screen and (max-width: 736px) {
+    .navbar {
+    	display: none;
+    }
+}
