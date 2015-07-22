@@ -47,7 +47,7 @@ ul,div,p,h1,h2,h3,h4,h5,span,a,aside,section,li,ol,nav {
 }
 
 .btn-ov {
-	margin-top: 60px;
+	margin-top: 150px;
 	transition: all 0.2s ease-in;
 	font-size: 24px;
 	border: 2px solid #5CD65C;
@@ -65,8 +65,18 @@ ul,div,p,h1,h2,h3,h4,h5,span,a,aside,section,li,ol,nav {
 * ==============================
 */
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1063px) {
     .navbar {
     	display: none;
     }
+
+    #brand {
+    	margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+	.btn-ov {
+		font-size: 20px;
+	}
 }
